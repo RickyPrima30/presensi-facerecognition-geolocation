@@ -1,0 +1,66 @@
+.wrapp{
+  top: 0;
+  left: 0;
+  margin:0;
+  padding:0;
+  position: fixed;
+	display: grid;
+	place-items: center;
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+  background-color: #0005;
+}
+.za-form{
+  background-color: var(--color-background);
+  width: min-content;
+  height: min-content;
+  padding:2rem;
+  border-radius: 20px;
+}
+.wrapp > div {
+	background-color: white;
+	border-radius: 10px;
+	padding: 2rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	min-width: 24rem;
+}
+
+input.za-form{
+  padding: .7rem 1.2rem;
+  border-radius: 6px;
+}
+select.za-form{
+  padding: .7rem 1.2rem;
+  border-radius: 6px;
+}
+input[type="submit"].za-form{
+  padding: .7rem 1.2rem;
+  border-radius: 6px;
+	background-color: var(--color-primary);
+	color: white;
+  cursor: pointer;
+}
+input[type="time"].za-form{
+  padding: .7rem 1.2rem;
+  border-radius: 6px;
+	background-color: var(--color-primary);
+	color: white;
+}
+input[type="submit"].za-form:disabled{
+	color: dimgray;
+}
+.form-down{
+	display: flex;
+	flex-direction: column;
+	z-index: 300;
+}
+.form-down > *{
+	margin: .4rem 0;
+}
+button:disabled{
+  color: gray;
+}
