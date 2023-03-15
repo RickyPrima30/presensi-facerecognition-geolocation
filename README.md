@@ -1,2 +1,2 @@
 # presensi-facerecognition-geolocation
- DOCUMENTATION
+ Documentation when I took part in the hi technology competition
